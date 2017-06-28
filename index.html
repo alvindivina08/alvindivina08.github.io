@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13238894_1125273670828995_5939250063111864815_n.jpg?oh=b83188e089e85efa0f2da49a4dd23f77&oe=59DD13DC');
+      background-size: cover;                 
+    background-repeat:   no-repeat;
+    background-position: bottom ; 
+      color: white;
+      margin:1 auto;
+  max-width: 850px;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAArCAAAAJGU1OTAwZjQ4LWQwYTItNDJiZS04ZDE0LTQwYTg4MDRlOTk4NQ.jpg">
+    <h1>Alvin's Blog</h1>
+    <ul>
+      <li><a href="https://dash.generalassemb.ly/alvindivina08/build-your-own-blog-theme#">About Me</a></li>
+      <li><a href="http://www.yearup.org/">Year Up</a></li>
+      <li><a href="http://www.yearup.org/seize-opportunity/">Apply</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>"Year Up"</h2>
+    <h2>WE ARE WASTING TALENT WHEN WE CAN'T AFFORD TO WASTE ANYONE.</h2>
+    <p>Millions of young adults in this country are facing social and economic injustice. Despite talent and motivation, they lack access to higher education and careers that provide them with a living wage. At the same time, our economy needs help. U.S. businesses are calling for more and better-trained talent to compete on the global stage, but there will not be enough skilled workers to meet that demand.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Work Hard. Get Ahead.</h2>
+    <p>Our free, one-year program includes:
+
+6 months professional training in IT, Financial Operations, Sales & Customer Support, Business Operations, or Software Development
+6 month corporate internship with a respected company
+Coursework eligible for college credit
+Weekly educational stipend throughout the program
+Guidance and support from a staff advisor and professional mentor
+85% of Year Up graduates are employed or attending college full-time within four months of completing the program.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>How you can become a Year Up student</h2>
+    <p>Applications are considered on a rolling basis until the class is filled. Classes begin in September for the fall, and in January or March for the spring. We encourage you to apply early as space is limited.
+
+Please submit an INTEREST FORM if you're interested in being a part of the upcoming fall class, beginning September 2017.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Gracias!");
+    });
+ $("li").on("click", function() {
+      alert("HA! I see you wanna learn more about me huh? loljk");
+    })
+  </script>
+</body>
